@@ -1,0 +1,405 @@
+#Variables
+batch_size = 64
+epochs = 100
+latent_dim = 256
+num_samples = 10000
+
+#First 100 outputs
+Input sentence: Service dog calms down his owner during an Asperger's meltdown
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: A fan for life.
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Someone guessed what they're getting for Christmas.
+Decoded sentence: The dog is so started a beal dad old dang in the flosh
+
+-
+Input sentence: Take your Good Boy to Work Day!
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Licks vs. noms
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: A study on the attention span of puppies
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: My coworker brought her baby goat to work. She fell asleep in my arms.
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: OH! GOOD MORNING! HOW MAY I HELP YOU?
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: New York's first pit bull police dog
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Today it started raining and a tiny stray pupper used me as an umbrella
+Decoded sentence: I love how the cat was going to get surming the same time.
+
+-
+Input sentence: Not fat just fluffy
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: I hope this doesn't go to her head
+Decoded sentence: I love how the cat was going to be a box.
+
+-
+Input sentence: "Just gonna sit on you real quick"
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: IT'S A TRAP! ABORT!
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: It's always a hole in one when you have a puppy to help!
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: Reluctantly, but still ...
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: "Pardon me, but could I trouble you for a few pets?"
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: One of these pups is not like the others
+Decoded sentence: I love how the cat was going to get surming the same time.
+
+-
+Input sentence: Best Gif Ever.
+Decoded sentence: I love how the cat was going to be a box.
+
+-
+Input sentence: Some things never change...
+Decoded sentence: The dog is so started a beal dad old dang in the flosh
+
+-
+Input sentence: a photographer is approached by a baby deer and baby wolf while out in the field
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: "I must bother this cat"
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Instant Regret
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: If I fits I... uh oh...
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: He's cute. I'll take him!
+Decoded sentence: I love the little guy is a proter love than I do.
+
+-
+Input sentence: When you're in love but a wall is in the way
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: How do I tell them about the Brexit...?
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Licks vs. noms
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Growing up is hard
+Decoded sentence: That same dog mehind me and makes me so cute fluffy animal statuter.
+
+-
+Input sentence: So we're posting dogs in costumes?
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Can't cage the fluff
+Decoded sentence: That last one was can sear into and more mover.
+
+-
+Input sentence: My cat likes to hang out under the kitchen sink, so we got him a name tag.
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Wait for it...
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: In Mexico this dog walked through a parade for the Pope thinking it was for him
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: The best kind of customer service
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: This baby adoring his mother
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Hey, who's leading who here?
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Someone told me this was a good subredit for this pic I took
+Decoded sentence: The dog is so started a beal dad old dang in the flosh
+
+-
+Input sentence: Siberian Husky dad playing playing with his 9 puppies for the first time
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: "You bought me a puppy?! Oh boy!"
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: "Weeeeee!"
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: "UNHAND ME WOMA... oh actually this is nice"
+Decoded sentence: That look on the cat stand in a dog for anima shotter in a strangely bat.
+
+-
+Input sentence: Service dog calms down his owner during an Asperger's meltdown
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Shaman cat performs ritual to grant kittens their nine lives
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: New York's first pit bull police dog
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Great problem-solving skills
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: Dance party
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: Player 3 has joined
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Husky responding to his name in a completely normal manner
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: My daughter got to pick what she wore for her school pictures. Daddy approves
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Only the essentials
+Decoded sentence: I love the little guy is a proter love than I do.
+
+-
+Input sentence: Puppy wants to nap with his friend
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Laziest attempt to play dead
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: Puppy: I don't know what kind of being you are, but I love you anyway
+Decoded sentence: I love how the cat gets the thing that was a perfect loop
+
+-
+Input sentence: Once a mother, always a mother
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Our little tiger carrying her newborn babies home 🐯
+Decoded sentence: I love the little guy is a proter love than I do.
+
+-
+Input sentence: My bf and dog are real life Shaggy and Scooby Doo
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: New York's first pit bull police dog
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: An ice corgi ferret
+Decoded sentence: That last one was can sear into and more mover.
+
+-
+Input sentence: Mamma cat brings her kittens to meet her best friend, the neighbours dog.
+Decoded sentence: I love how the cat was going to get surming the same time.
+
+-
+Input sentence: We are officially a family.
+Decoded sentence: The dog is so started a beal dad old dang in the flosh
+
+-
+Input sentence: Best thing to see during a morning commute
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: "No, I haven't been playing with your glitter."
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: My cat recently discovered the dog bed
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: best game of tag ever
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: Cruella De Vil Halloween costume
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: My cat only has 3 legs, and loves when I scratch the spot she can't reach
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Photobombing turtle
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Emma Watson playing with kittens
+Decoded sentence: The look at the end is adorable.
+
+-
+Input sentence: Obligatory Hygienic Entrance Examination
+Decoded sentence: That looks like a cat one back to you find a dog and I stall hand mind.
+
+-
+Input sentence: Measuring my wiener...
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Licks vs. noms
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Two month old baby Toucan and his beak
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Baby otter's first time in the water
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: This kitten in a bar
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: When french fries are your motivation to take the first steps
+Decoded sentence: I love how the cat was going to get surming the same time.
+
+-
+Input sentence: My older cat with my new kitten. I was afraid they wouldn't get along.
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: i halp
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: Emma Watson playing with kittens
+Decoded sentence: The look at the end is adorable.
+
+-
+Input sentence: Here come the ears
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Family picture.
+Decoded sentence: The dog is so started to be a coofer
+
+-
+Input sentence: My mom works at a farm store and found this cutie in the hay today
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: As if by magic ...
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: Licks vs. noms
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Am I doing this right?
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: "Ruh roh!" -Loki in full Scooby Doo mode
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Cat tries to save her human from drowning in the bathtub.
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: When you walk by your crush and do something cool
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Doggo unwrapping his gift
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: Former fighting bull gets a brushing
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: It's all fun and games...
+Decoded sentence: I love the same this was a good boy.
+
+-
+Input sentence: Lazy Wafer
+Decoded sentence: I love how he doesn't eat into the second back to eat them
+
+-
+Input sentence: When you lie on your resume but still get the job
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Get ready for family picture guys!
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: I met this local wet-nosed pup at the bar, his name is Smudge
+Decoded sentence: The look at the end takes all the paws are going to be made to desicule cute.
+
+-
+Input sentence: She knocked a chair over and now she doesn't want to live here anymore.
+Decoded sentence: That last one win's have a didn't big.
+
+-
+Input sentence: Seth Rogen meets Boo
+Decoded sentence: The dog is so started a beal dad old dang in the flosh
+
+-
+Input sentence: You have something in your hair...
+Decoded sentence: I love how he doesn't even know.
+
+-
+Input sentence: suddenly, a seal
+Decoded sentence: That last one win's have a didn't go water.
+
+-
+Input sentence: Owl having a bath in the sink
+Decoded sentence: I love how he doesn't even know.
